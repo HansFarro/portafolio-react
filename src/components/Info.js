@@ -10,9 +10,10 @@ const Info = () => {
                 <h1 className="display-2">Web developer</h1>
                 <p className="lead">HTML5 | CSS3 | JAVASCRIPT | NODEJS | REACT</p>
             </div>
-            <div className="profile-image">
+            <div className="profile-image mb-5">
                 <img src={profileImage} alt=""/>
             </div>
+            <button className="btn btn-primary m-auto d-block">Ver Mas</button>
         </div>
      );
 }

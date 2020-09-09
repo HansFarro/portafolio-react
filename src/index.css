@@ -8,6 +8,8 @@
 .jumbotron {
   margin:0;
   padding: 100px 100px;
+  border-radius: 0;
+  background: linear-gradient(360deg,#444444 10%,#4a4a4a 360%);
 }
 
 .about-me-info {
@@ -24,15 +26,6 @@
   z-index: 1;
 }
 
-.about img {
-  width: 300px;
-  position: relative;
-  top: -300px;
-  left: calc(100% - 100px);
-  right: calc(100% - 100px);
-  transform: translateX(calc(-100% + 100px));
-}
-
 .profile-image img {
   width: 450px;
   height: 200px;
@@ -43,7 +36,7 @@
 
 
 .main-info-section {
-  height: calc(100vh - 81.6px);
+  height: calc(100vh - 71.6px);
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -61,7 +54,9 @@
   display: block;
   text-align: center;
   margin: auto;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: #22bc9c;
+  text-shadow: 2px 2px 2px #309c87;
 }
 
 .navbar-brand {
@@ -82,4 +77,71 @@ div {
 
 .lead {
   font-weight: 500;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #22bc9c;
+}
+
+.display-3 {
+  color: #22bc9c;
+  font-weight: 400;
+}
+
+.info-section {
+  background-color: #2c3e50;;
+  padding: 30px 30px;
+  color: white;
+  height: 500px;
+  border-radius: 50px;
+  width:90%;
+  font-weight: 50%;
+  font-size: 25px;
+  text-align: justify;
+  margin: auto;
+}
+
+.title {
+  margin-bottom: 100px;
+  display: block;
+  text-align: center;
+}
+
+.blockquote {
+  font-size: 25px;
+}
+
+@media (max-width: 1520px) {
+  .info-section {
+    background-color: #fff;
+  }
+}
+
+.css {
+  width: 60%;
+  float: right;
+}
+
+.js {
+  width: 70%;
+}
+
+.html {
+  width: 100%;
+  float: right;
+}
+
+.mysql{
+  width: 100%;
+}
+
+.react{
+  width: 100%;
+}
+
+.content{
+  float: left;
+  color: #22bc9c;
+  font-size: large;
 }
