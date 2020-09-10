@@ -56,7 +56,7 @@
   margin: auto;
   /* color: #2c3e50; */
   color: #22bc9c;
-  text-shadow: 2px 2px 2px #309c87;
+  text-shadow: 2px 2px #309c87;
 }
 
 .navbar-brand {
@@ -112,19 +112,20 @@ div {
   font-size: 25px;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1200px) {
   .info-section {
-    background-color: #fff;
+    max-width: 100px;
+    margin: auto;
   }
 }
 
 .css {
-  width: 60%;
+  width: 70%;
   float: right;
 }
 
 .js {
-  width: 70%;
+  width: 80%;
 }
 
 .html {
@@ -137,11 +138,18 @@ div {
 }
 
 .react{
-  width: 100%;
+  width: 80%;
 }
 
 .content{
-  float: left;
   color: #22bc9c;
   font-size: large;
+}
+
+.skills {
+  margin-top: 150px;
+}
+
+.card{
+  max-width: 30rem;
 }
