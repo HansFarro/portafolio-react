@@ -8,8 +8,7 @@ const About = () => {
         <div className="jumbotron about" id="about">
             <h1 className="display-3 title">SOBRE MI</h1>
             <div className="row">
-                <div className="col-md-6">
-                    <div className="info-section">
+                <div className="col-sm-12 col-md-8 col-lg-6 info-section">
                         <p>{about.education}</p>
                         <p>{about.currently}</p>
                         <p>{about.hobbie}</p>
@@ -17,9 +16,8 @@ const About = () => {
                             <p className="mb-0">{about.favquote}</p>
                             <footer className="blockquote-footer">{about.author}</footer>
                         </blockquote>
-                    </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-sm-12 col-md-4 col-lg-6">
                     <img src={Education} className="img-fluid" alt=""/>
                 </div>
             </div>
