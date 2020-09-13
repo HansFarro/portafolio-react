@@ -7,7 +7,7 @@ const Projects = () => {
     return ( 
         <div className="jumbotron jumbotron-fluid" id="projects">
             <h1 className="display-3 title">PROYECTOS</h1>
-            <div className="row">
+            <div className="row mx-auto">
                 {projects.map((project) => (
                     <Card
                         id={project.id}

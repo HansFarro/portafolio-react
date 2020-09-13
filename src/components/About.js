@@ -5,10 +5,10 @@ import aboutme from '../services/aboutme';
 const About = () => {
     const [about] = aboutme;
     return ( 
-        <div className="jumbotron about" id="about">
+        <div className="jumbotron jumbotron-fluid" id="about">
             <h1 className="display-3 title">SOBRE MI</h1>
             <div className="row">
-                <div className="col-sm-12 col-md-8 col-lg-6 info-section">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 info-section">
                         <p>{about.education}</p>
                         <p>{about.currently}</p>
                         <p>{about.hobbie}</p>
@@ -17,7 +17,7 @@ const About = () => {
                             <footer className="blockquote-footer">{about.author}</footer>
                         </blockquote>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-6">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6">
                     <img src={Education} className="img-fluid" alt=""/>
                 </div>
             </div>
