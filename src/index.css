@@ -1,8 +1,8 @@
 * {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 body {
@@ -11,18 +11,8 @@ body {
   width: 100%;
 }
 
-div {
-  display: block;
-}
-
 html {
   scroll-behavior: smooth;
-}
-
-label{
-  color: #22bc9c;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .jumbotron {
@@ -31,15 +21,6 @@ label{
   background: linear-gradient(360deg,#444444 10%,#4a4a4a 360%);
 }
 
-.title {
-  margin-bottom: 100px;
-  display: block;
-  text-align: center;
-}
-
-.skills {
-  margin-top: 150px;
-}
 @media (max-width: 700px) {
   .jumbotron {
     margin:0;
@@ -51,11 +32,11 @@ label{
   }
 
   .title {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: block;
     text-align: center;
   }
-  
+
   .skills{
     margin-top: 5px !important;
   }
@@ -86,6 +67,9 @@ label{
   padding: 0 90px;
 }
 
+div {
+  display: block;
+}
 
 .display-3 {
   font-weight: 400;
@@ -94,6 +78,11 @@ label{
 
 .lead {
   font-weight: 500;
+}
+
+.btn {
+  padding: 10px 20px;
+  /* color: #22bc9c; */
 }
 
 .display-3 {
@@ -111,17 +100,21 @@ label{
   text-align: justify;
 }
 
-@media (max-width: 700px) {
-  .info-section {
-    padding: 40px 30px 30px 30px;
-    margin: 5px 0 ;
-  }
+.title {
+  margin-bottom: 100px;
+  display: block;
+  text-align: center;
 }
 
 .blockquote {
   font-size: 25px;
 }
 
+@media (max-width: 700px) {
+  .info-section {
+    margin: auto;
+  }
+}
 
 .css {
   width: 70%;
@@ -150,6 +143,9 @@ label{
   font-size: large;
 }
 
+.skills {
+  margin-top: 150px;
+}
 
 .card{
   max-width: 30rem;
@@ -166,12 +162,8 @@ label{
   display: inline-block;
 }
 
-.icon{
+.green{
   color: #22bc9c;
-}
-
-.icon:hover{
-  color: #2becc6;
 }
 
 @media (max-width: 200px) {
@@ -185,4 +177,10 @@ label{
 .message {
   display: block;
   margin: 0 auto;
+}
+
+label{
+  color: #22bc9c;
+  font-size: 18px;
+  font-weight: bold;
 }

@@ -7,7 +7,7 @@ const projects = [
         },
         name: 'DEVtuto website',
         description :[
-            'Empresa que ofrece cursos especializados en tecnologias web como HTML5, CSS3, JS siguiendo el stack MERN..',
+            'Empresa que ofrece cursos especializados en tecnologias  web como HTML5, CSS3 ,JS siguiendo el stack MERN.',
         ]
     },
     {
@@ -40,7 +40,7 @@ const projects = [
         },
         name: 'Letras de canciones',
         description :[
-            'Ten información sobre tu artista favorito y canción favorita.'
+            'Ten información sobre tu artista favorito y cancion favorita.'
         ]
     },
     {
@@ -51,7 +51,7 @@ const projects = [
         },
         name: 'Frases breaking bad',
         description :[
-            'Obtén fácilmente frases de la popular serie Breaking Bad.'
+            'Obten facilmente frases de la popular serie Breaking Bad.'
         ]
     },
     {
@@ -62,7 +62,7 @@ const projects = [
         },
         name: 'Pixaby API',
         description :[
-            'Aplicación web que utiliza la API de Pixaby para buscar imagenes y descargarlas gratuitamente.'
+            'Aplicacion web que utiliza la API de Pixaby para buscar imagenes y descargarlas gratuitamente.'
         ]
     },
 ]

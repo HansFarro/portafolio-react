@@ -1,7 +1,6 @@
 import React from 'react';
 import profileImage from '../img/profile-image.svg';
 import { animateScroll as scroll} from 'react-scroll';
-import Typed from 'react-typed';
 
 function Info() {
     const scrollType = {
@@ -10,6 +9,7 @@ function Info() {
         smooth: true,
         offset: -10,
     };
+
     return (
         <div className="jumbotron main-info-section" id="info">
             <div className="container">
@@ -17,13 +17,7 @@ function Info() {
                     <div className="col-12">
                         <div className="text mx-auto">
                             <h1 className="display-3">Hola, </h1>
-                            <Typed
-                                strings={['SOY HANS FARRO CASTILLO','SOY DESARROLLADOR','SOY AUTODIDACTA' ,'SOY INFORMÁTICO']}
-                                typeSpeed={60}
-                                backSpeed={80}
-                                className="display-3"
-                                loop
-                            />
+                            <h1 className="display-3">Soy Hans Farro Castillo,</h1>
                             <h1 className="display-3">Web developer</h1>
                             <p className="lead mx-auto">HTML5 | CSS3 | JAVASCRIPT | NODEJS | REACT</p>
                         </div>
@@ -35,7 +29,7 @@ function Info() {
                                 className="btn btn-primary"
                                 onClick={() => scroll.scrollTo(900,scrollType)}
                             >
-                                Ver Más</button>
+                                Ver Mas</button>
                         </div>
                     </div>
                 </div>
