@@ -180,6 +180,15 @@ label{
     padding: 50px 50px;
     border-radius: 0;
   }
+  .navbar-brand {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 765px) {
+  .navbar-brand {
+    padding: 0 5px;
+  }
 }
 
 .message {
