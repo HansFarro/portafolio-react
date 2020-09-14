@@ -1,9 +1,17 @@
+import devtuto from '../img/projects/devto2.jpg';
+import cotizadorcripto from '../img/projects/cotizadorcripto.jpg';
+import buscadorbebidas from '../img/projects/buscador_bebidas.jpg';
+import musica_letras from '../img/projects/musica_letras.jpg';
+import breaking_bad from '../img/projects/frases_breaking_bad.jpg';
+import pixaAPI from '../img/projects/pixaby_api.jpg';
+
 const projects = [
     {
         id: 1,
         image : {
-            src: '/projects/devto2.jpg',
+            src: devtuto,
             alt: 'DEVtuto',
+            
         },
         name: 'DEVtuto website',
         description :[
@@ -13,7 +21,7 @@ const projects = [
     {
         id: 2,
         image : {
-            src: '/projects/cotizador_cripto.jpg',
+            src: cotizadorcripto,
             alt: 'Criptomonedas'
         },
         name: 'Cotizador de criptomoneda ',
@@ -24,7 +32,7 @@ const projects = [
     {
         id: 3,
         image : {
-            src: '/projects/buscador_bebidas.jpg',
+            src: buscadorbebidas,
             alt: 'Buscador de bebidas'
         },
         name: 'Buscador de bebidas',
@@ -35,7 +43,7 @@ const projects = [
     {
         id: 4,
         image : {
-            src: '/projects/musica_letras.jpg',
+            src: musica_letras,
             alt: 'Letras de canciones'
         },
         name: 'Letras de canciones',
@@ -46,7 +54,7 @@ const projects = [
     {
         id: 5,
         image : {
-            src: '/projects/frases_breaking_bad.jpg',
+            src: breaking_bad,
             alt: 'Frases breaking bad'
         },
         name: 'Frases breaking bad',
@@ -57,7 +65,7 @@ const projects = [
     {
         id: 6,
         image : {
-            src: '/projects/pixaby_api.jpg',
+            src: pixaAPI,
             alt: 'Pixaby API'
         },
         name: 'Pixaby API',
