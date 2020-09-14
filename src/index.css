@@ -196,9 +196,12 @@ label{
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)	{
-  .wrap{
+  .wrap {
     width: min-content;
     background-position: center;
+  }
+  .navbar-brand {
+    padding: 0 5px;
   }
 }
 
