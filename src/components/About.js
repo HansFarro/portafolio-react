@@ -6,7 +6,7 @@ const About = () => {
     const [about] = aboutme;
     return ( 
         <div className="jumbotron jumbotron-fluid" id="about">
-            <h1 className="display-3 title">SOBRE MI</h1>
+            <h1 className="display-3 title">SOBRE MÍ</h1>
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-6 info-section">
                         <p>{about.education}</p>
