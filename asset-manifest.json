@@ -1,28 +1,34 @@
 {
   "files": {
     "main.css": "/portafolio-react/static/css/main.17043d5f.chunk.css",
-    "main.js": "/portafolio-react/static/js/main.247d04d5.chunk.js",
-    "main.js.map": "/portafolio-react/static/js/main.247d04d5.chunk.js.map",
+    "main.js": "/portafolio-react/static/js/main.1604ee8d.chunk.js",
+    "main.js.map": "/portafolio-react/static/js/main.1604ee8d.chunk.js.map",
     "runtime-main.js": "/portafolio-react/static/js/runtime-main.07553a14.js",
     "runtime-main.js.map": "/portafolio-react/static/js/runtime-main.07553a14.js.map",
     "static/css/2.6d04c983.chunk.css": "/portafolio-react/static/css/2.6d04c983.chunk.css",
-    "static/js/2.78ccafc2.chunk.js": "/portafolio-react/static/js/2.78ccafc2.chunk.js",
-    "static/js/2.78ccafc2.chunk.js.map": "/portafolio-react/static/js/2.78ccafc2.chunk.js.map",
+    "static/js/2.f723bcb1.chunk.js": "/portafolio-react/static/js/2.f723bcb1.chunk.js",
+    "static/js/2.f723bcb1.chunk.js.map": "/portafolio-react/static/js/2.f723bcb1.chunk.js.map",
     "index.html": "/portafolio-react/index.html",
-    "precache-manifest.a877c98b928d48340a6f29fde863e599.js": "/portafolio-react/precache-manifest.a877c98b928d48340a6f29fde863e599.js",
+    "precache-manifest.b8a19940fe8e8a8dfc4b075b4a3850ff.js": "/portafolio-react/precache-manifest.b8a19940fe8e8a8dfc4b075b4a3850ff.js",
     "service-worker.js": "/portafolio-react/service-worker.js",
     "static/css/2.6d04c983.chunk.css.map": "/portafolio-react/static/css/2.6d04c983.chunk.css.map",
     "static/css/main.17043d5f.chunk.css.map": "/portafolio-react/static/css/main.17043d5f.chunk.css.map",
-    "static/js/2.78ccafc2.chunk.js.LICENSE.txt": "/portafolio-react/static/js/2.78ccafc2.chunk.js.LICENSE.txt",
+    "static/js/2.f723bcb1.chunk.js.LICENSE.txt": "/portafolio-react/static/js/2.f723bcb1.chunk.js.LICENSE.txt",
+    "static/media/buscador_bebidas.jpg": "/portafolio-react/static/media/buscador_bebidas.75bfcc28.jpg",
     "static/media/coding_two_color.svg": "/portafolio-react/static/media/coding_two_color.c583d5d5.svg",
+    "static/media/cotizadorcripto.jpg": "/portafolio-react/static/media/cotizadorcripto.a2ae40e4.jpg",
+    "static/media/devto2.jpg": "/portafolio-react/static/media/devto2.e449506e.jpg",
+    "static/media/frases_breaking_bad.jpg": "/portafolio-react/static/media/frases_breaking_bad.3511062f.jpg",
     "static/media/javascript.svg": "/portafolio-react/static/media/javascript.1ff7e916.svg",
+    "static/media/musica_letras.jpg": "/portafolio-react/static/media/musica_letras.1f6723bc.jpg",
+    "static/media/pixaby_api.jpg": "/portafolio-react/static/media/pixaby_api.c122a776.jpg",
     "static/media/profile-image.svg": "/portafolio-react/static/media/profile-image.7fd627bc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.07553a14.js",
     "static/css/2.6d04c983.chunk.css",
-    "static/js/2.78ccafc2.chunk.js",
+    "static/js/2.f723bcb1.chunk.js",
     "static/css/main.17043d5f.chunk.css",
-    "static/js/main.247d04d5.chunk.js"
+    "static/js/main.1604ee8d.chunk.js"
   ]
 }
