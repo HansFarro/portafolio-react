@@ -186,3 +186,36 @@ label{
   display: block;
   margin: 0 auto;
 }
+
+.wrap {
+  background-size: auto;
+  background-repeat: repeat;
+  width: fit-content;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)	{
+  .wrap{
+    width: min-content;
+    background-position: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .jumbotron {
+    margin:0;
+    padding: 20px 20px;
+    background: linear-gradient(360deg,#444444 10%,#4a4a4a 360%);
+  }
+
+  .title {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  .skills{
+    margin-top: 5px !important;
+  }
+}

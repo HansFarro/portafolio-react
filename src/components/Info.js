@@ -16,15 +16,15 @@ function Info() {
                 <div className="row mx-auto">
                     <div className="col-12">
                         <div className="text mx-auto">
-                            <h1 className="display-3">Hola, </h1>
+                            <h1 className="display-3">Hola, soy </h1>
                             <Typed
-                                strings={['SOY HANS FARRO CASTILLO','SOY DESARROLLADOR','SOY AUTODIDACTA' ,'SOY INFORMÁTICO']}
-                                typeSpeed={60}
-                                backSpeed={80}
-                                className="display-3"
-                                loop
+                                strings={['HANS FARRO','DESARROLLADOR','AUTODIDACTA' ,'INFORMÁTICO','HANS FARRO']}
+                                typeSpeed={90}
+                                backSpeed={100}
+                                className="display-3 text-center"
+                        
                             />
-                            <h1 className="display-3">Web developer</h1>
+                            <h1 className="display-3 text-center">Web developer</h1>
                             <p className="lead mx-auto">HTML5 | CSS3 | JAVASCRIPT | NODEJS | REACT</p>
                         </div>
                         <div className="profile-image mt-5 mb-5">
