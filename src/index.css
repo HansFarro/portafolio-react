@@ -75,7 +75,7 @@ label{
   text-align: center;
   margin: auto;
   color: #22bc9c;
-  text-shadow: 2px 2px #309c87;
+  text-shadow: 2px 1px #309c87;
 }
 
 .navbar-brand {
@@ -212,6 +212,9 @@ label{
   .navbar-brand {
     padding: 0 5px;
   }
+  .main-info-section {
+  background-size: cover;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -230,4 +233,28 @@ label{
   .skills{
     margin-top: 5px !important;
   }
+
+  .main-info-section {
+    background-size: cover;
+  }
+}
+
+.main-info-section {
+  background-image: url("https://images.hdqwalls.com/download/beautiful-blue-purple-sky-4k-9g-2560x1440.jpg");
+  background-repeat: no-repeat;
+  background-size: 1950px 1000px;
+  min-height: 100vh;
+  cursor: default;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.btn-green {
+  color: white;
+  background-color:  #00b490;
+}
+
+.btn-green:hover {
+  color: #444444;
+  background-color:  #2addb9;
 }
