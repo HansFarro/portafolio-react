@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-primary sticky-top">
-            <Link onClick={() => scroll.scrollToTop(scrollType)} className="navbar-brand" to="/">Hans Farro Castillo</Link>
+            <Link onClick={() => scroll.scrollToTop(scrollType)} className="navbar-brand" to="/portafolio-react">Hans Farro Castillo</Link>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navBarResponsive" aria-controls="navBarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={() => <LandingPage />}></Route>
+        <Route exact path="/portafolio-react" component={() => <LandingPage />}></Route>
         <Route exact path="/projects" component={() => <ProjectsPage />}></Route>
         <Route exact path="/contactme" component={() => <ContactMe />}></Route>
       </Switch>

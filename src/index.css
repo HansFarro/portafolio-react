@@ -232,7 +232,7 @@ label{
   }
 
   .main-info-section {
-    background-size: cover;
+    background-size: cov  er;
   }
 }
 
@@ -269,4 +269,78 @@ label{
   width: none;
   /* max-width: inherit; */
   /* padding: 0px 2px; */
+}
+
+#contact {
+  width: 1903px;
+  height: 800px;
+}
+
+
+.contactimg {
+  height: 500px;
+  width: 700px;
+  margin: 10px 10px;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    width: 505px;
+    max-width: fit-content;
+    max-height: fit-content;
+    height: 900px;
+  }
+  
+  .title {
+    font-size: 50px;
+    margin: 10px 40px;
+  }
+
+  .contactimg {
+    height: 200px;
+    width: 200px;
+    margin: 20px 100px;
+  }
+  .icon-center {
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #contact {
+    width: 1025px;
+    /* max-height: fit-content; */
+    height: 700px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+  .contactimg {
+    height: 500px;
+    width:400px;
+    margin: 10px 20px;
+  } 
+ }
+
+ @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #contact {
+    width: 1200px;
+    /* max-height: fit-content; */
+    height: 700px;
+  }
+
+  .contactimg {
+    height: 500px;
+    width:400px;
+    margin: 10px 50px;
+  } 
+}
+/* tablet */
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  #contact {
+    width: 1000px;
+    max-width: 1000px;
+  }
 }

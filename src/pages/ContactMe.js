@@ -12,7 +12,6 @@ const ContactMe = () => {
     <div className="wrap">
       <Navbar />
       <ContactForm />
-      <Projects />
       <LetsTalk />
       <Footer />
     </div>

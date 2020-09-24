@@ -12,7 +12,7 @@ const Skills = () => {
             <div className="row">
                 <Fade left duration={2000}>
                     <div id="imgjs"className="col-12 col-md-6">
-                        <img src={imgjs} className="img-fluid" alt=""/>
+                        <img src={imgjs} className="img-fluid" alt="Skills"/>
                     </div>
                     <div className="col-12 col-md-6 skills">
                         <div className="content mr-3 mb-2">HTML5</div>
