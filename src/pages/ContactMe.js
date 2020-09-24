@@ -3,7 +3,6 @@ import React from 'react';
 // Components
 import Navbar from '../components/Navbar';
 import ContactForm from '../components/ContactForm';
-import Projects from '../components/Projects';
 import LetsTalk from '../components/LetsTalk';
 import Footer from '../components/Footer';
 

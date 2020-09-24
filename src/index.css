@@ -267,8 +267,6 @@ label{
 .advice {
   background-color: #2c2c2c;
   width: none;
-  /* max-width: inherit; */
-  /* padding: 0px 2px; */
 }
 
 #contact {
@@ -309,7 +307,6 @@ label{
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   #contact {
     width: 1025px;
-    /* max-height: fit-content; */
     height: 700px;
   }
 
@@ -327,7 +324,6 @@ label{
  @media screen and (min-width: 1025px) and (max-width: 1200px) {
   #contact {
     width: 1200px;
-    /* max-height: fit-content; */
     height: 700px;
   }
 
