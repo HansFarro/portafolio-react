@@ -2,6 +2,8 @@ import React from 'react';
 import profileImage from '../img/profile-image.svg';
 import { animateScroll as scroll} from 'react-scroll';
 import Typed from 'react-typed';
+import Fade from 'react-reveal/Fade';
+import Jump from 'react-reveal/Jump';
 
 function Info() {
     const scrollType = {
@@ -19,7 +21,7 @@ function Info() {
                         <h1 className="display-3 text-center">Hola, soy </h1>
                         <h1 className="display-3 text-center">Hans Farro</h1>
                         <Typed
-                            strings={['FULL STACK DEVELOPER','INFORMATICO Y AUTODIDACTA','FULL STACK DEVELOPER']}
+                            strings={['FULL STACK DEVELOPER','INFORMÁTICO Y AUTODIDACTA','FULL STACK DEVELOPER']}
                             typeSpeed={90}
                             backSpeed={70}
                             backDelay={800}
@@ -27,21 +29,25 @@ function Info() {
                         />
                         <p className="lead mx-auto">HTML5 | CSS3 | JAVASCRIPT | NODEJS | REACT</p>
                     </div>
-                    <div className="profile-image mt-5 mb-5">
-                        <img src={profileImage} alt="" />
-                    </div>
+                    <Fade top>
+                        <div className="profile-image mt-5 mb-5">
+                            <img src={profileImage} alt="" />
+                        </div>
+                    </Fade>
                     <div className="col-12 text-center mx-auto">
-                        <button 
-                            className="btn btn-primary"
-                            onClick={() => scroll.scrollTo(1020,scrollType)}
-                        >
-                            Ver Más</button>
-                        <a  
-                        href="https://drive.google.com/file/d/1b2axsnjpIkr0yQNBWmfytOOmnpuzTAK7/view?usp=sharing"
-                        className="btn btn-green ml-4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >DESCARGAR CV</a>
+                        <Jump duration={2000}>
+                            <button 
+                                className="btn btn-primary"
+                                onClick={() => scroll.scrollTo(1000,scrollType)}
+                            >
+                                Ver Más</button>
+                            <a  
+                            href="https://drive.google.com/file/d/1b2axsnjpIkr0yQNBWmfytOOmnpuzTAK7/view?usp=sharing"
+                            className="btn btn-green ml-4"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >DESCARGAR CV</a>
+                        </Jump>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,8 @@
 import React , {useState} from 'react';
 import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+import Tada from 'react-reveal/Tada';
+import Fade from 'react-reveal/Fade';
 
 const ContactForm = () => {
     // Crear el state de datos
@@ -59,36 +61,18 @@ const ContactForm = () => {
     }
 
     return ( 
-        <div className="jumbotron jumbotron-fluid" id="contact">
-            <h1 className="display-3 title">CONTÁCTAME</h1>
-            <div className="container">
-                <form onSubmit={sendEmail} className="needs-validation" noValidate>
-                    <fieldset>
-                        <div className="row mx-auto">
-                            <div className="col-12 col-md-8 form-group mx-auto">
-                                <label htmlFor="inputName">Nombre completo</label>
-                                <input type="text" name="name" value={name} className="form-control" id="inputName" onChange={handleInputChange} placeholder="Ingresa tu nombre completo" required/>
-                            </div>
-                            <div className="col-12 col-md-8 form-group mx-auto">
-                                <label htmlFor="inputEmail">Dirección de correo electrónico</label>
-                                <input type="email" name="email" value={email} className="form-control" id="inputEmail" onChange={handleInputChange} placeholder="Ingresar correo electronico" required/>
-                            </div>
-                            <div className="col-12 col-md-8 form-group mx-auto">
-                                <label htmlFor="inputAsunto">Asunto</label>
-                                <input type="text" name="subject" value={subject} className="form-control" id="inputAsunto" onChange={handleInputChange} placeholder="Asunto" required/>
-                            </div>
-                            <div className="col-12 col-md-8 form-group mx-auto">
-                                <label htmlFor="textarea">Mensaje</label>
-                                <textarea className="form-control" name="message" value={message} id="textarea" cols="30" rows="4" onChange={handleInputChange} placeholder="Mensaje" required></textarea>
-                            </div>
-                            <div className="col-12 col-md-8 pt-4 mx-auto">
-                                <input type="submit" className="btn btn-primary message" value="Enviar Mensaje"/>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
+            <div className="jumbotron main-info-section" id="contact">
+                <div class="container">
+                <Tada>
+                    <h1 className="display-3 title">CONTÁCTAME</h1>
+                </Tada>
+                <div className="row">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12">
+
+                    </div>
+                </div>
+                </div>
+            </div> 
      );
 }
  

@@ -1,23 +1,20 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Info from './components/Info';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
-import ContactForm from './components/ContactForm';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// Pages
+import LandingPage from './pages/LandingPage';
+import ProjectsPage from './pages/ProjectsPage';
+import ContactMe  from './pages/ContactMe';
 
 function App() {
   return (
-    <div className="wrap">
-        <Navbar />
-        <Info />
-        <About />
-        <Skills />
-        <Projects />
-        <ContactForm />
-        <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={() => <LandingPage />}></Route>
+        <Route exact path="/projects" component={() => <ProjectsPage />}></Route>
+        <Route exact path="/contactme" component={() => <ContactMe />}></Route>
+      </Switch>
+    </Router>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll} from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const scrollType = {
@@ -11,23 +12,17 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-md navbar-expand-lg navbar-dark bg-primary sticky-top">
-            <a onClick={() => scroll.scrollToTop(scrollType)} className="navbar-brand" href="#info">Hans Farro Castillo</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <Link onClick={() => scroll.scrollToTop(scrollType)} className="navbar-brand" to="/">Hans Farro Castillo</Link>
+            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navBarResponsive" aria-controls="navBarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarColor01">
+            <div className="collapse navbar-collapse" id="navBarResponsive">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#about">SOBRE MÍ</a>
+                        <Link onClick={() => scroll.scrollToTop(scrollType)} className="nav-link" to="/projects">PROYECTOS</Link>
                     </li> 
                     <li className="nav-item">
-                        <a className="nav-link" href="#skill">HABILIDADES</a>
-                    </li> 
-                    <li className="nav-item">
-                        <a className="nav-link" href="#projects">PROYECTOS</a>
-                    </li> 
-                    <li className="nav-item">
-                        <a className="nav-link" href="#contact">CONTÁCTAME</a>
+                        <Link onClick={() => scroll.scrollToBottom(scrollType)} className="nav-link" to="/contactme">CONTÁCTAME</Link>
                     </li> 
                 </ul>
             </div>
