@@ -3,15 +3,15 @@ import React from 'react';
 // Components
 import Navbar from '../components/Navbar';
 import ContactForm from '../components/ContactForm';
-import LetsTalk from '../components/LetsTalk';
+import LetsWork from '../components/LetsWork';
 import Footer from '../components/Footer';
 
 const ContactMe = () => {
   return (
-    <div className="wrap">
+    <div className="content">
       <Navbar />
       <ContactForm />
-      <LetsTalk />
+      <LetsWork />
       <Footer />
     </div>
    );
